@@ -1,0 +1,44 @@
+{
+    "name": "Mashing",
+    "maps": [
+        {
+            "name": "Mashing",
+            "id": "42b385e9-3a25-40e1-a71c-a48823577d6e",
+            "actions": [
+                {
+                    "name": "A",
+                    "type": "Button",
+                    "id": "525ae5ab-dce5-47d7-b95c-3df2247845d7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65dfadec-4559-4115-90af-76e4ca639198",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4f938fe-ddf9-4437-9db6-b3a1252c4dfa",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

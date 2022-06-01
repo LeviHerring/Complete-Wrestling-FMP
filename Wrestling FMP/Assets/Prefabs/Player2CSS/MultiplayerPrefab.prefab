@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6284676242691103137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3597030366336321325}
+  - component: {fileID: 406827257573800888}
+  - component: {fileID: 2750875858030599614}
+  m_Layer: 0
+  m_Name: MultiplayerPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3597030366336321325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6284676242691103137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.6100078, y: 0.7493946, z: -1.6883552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &406827257573800888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6284676242691103137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04dc2e108601c86479b2b6cf24f7ce5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOne: {fileID: 416707759196887311, guid: af423a78b0234434c9696ed38a0255c8, type: 3}
+  playerTwo: {fileID: 4909575955567756279, guid: 2fafe67705412544cbb67892dc51fd5a, type: 3}
+  globalMultiplayerVariables: {fileID: 3384320755279945908, guid: a71f1a247fa86844ea4d1aaa19a0e04d, type: 3}
+  spawnPositionOne: {fileID: 5767331309794804922, guid: efed9c2b17ba6154280537409b3fb7d1, type: 3}
+  spawnPositionTwo: {fileID: 4203075841043600810, guid: b0cb19d2692220446b5ccdf5efe3061a, type: 3}
+--- !u!114 &2750875858030599614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6284676242691103137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 8dc532a95373a944686dfadd05c46079, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 889e5c6c-dd66-4092-a46d-0840cd00dcd1
+    m_ActionName: CharacterSelectScreen/Right[/XInputControllerWindows/leftStick/right,/XInputControllerWindows/leftStick/right]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9f665a85-195b-41be-ace5-488a10244e72
+    m_ActionName: CharacterSelectScreen/Left[/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/left]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 91a77a51-eff0-47c6-80f3-341100eb53b4
+    m_ActionName: CharacterSelectScreen/Select[/XInputControllerWindows/buttonSouth,/XInputControllerWindows/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 406827257573800888}
+        m_TargetAssemblyTypeName: TwoPlayerManagerCharacterSelectScreen, Assembly-CSharp
+        m_MethodName: Back
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 5d3ffe3b-08e1-48a7-84b4-40625a2b4ba4
+    m_ActionName: CharacterSelectScreen/Back[/XInputControllerWindows/buttonEast,/XInputControllerWindows/buttonEast]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: CharacterSelectScreen
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
